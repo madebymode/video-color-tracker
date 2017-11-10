@@ -1,0 +1,19 @@
+{
+  "name": "mode-color-tracker",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madebymode/mode-color-tracker.git"
+  },
+  "author": "MODE <developers@madebymode.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madebymode/mode-color-tracker/issues"
+  },
+  "homepage": "https://github.com/madebymode/mode-color-tracker#readme"
+}
