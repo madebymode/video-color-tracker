@@ -2,7 +2,7 @@
   "name": "mode-color-tracker",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/VideoColorTracker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,25 @@
   "bugs": {
     "url": "https://github.com/madebymode/mode-color-tracker/issues"
   },
-  "homepage": "https://github.com/madebymode/mode-color-tracker#readme"
+  "homepage": "https://github.com/madebymode/mode-color-tracker#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "core-js": "^2.5.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "js-draggable": "^1.0.3",
+    "lata": "^0.1.2",
+    "lodash.throttle": "^4.1.1",
+    "minimis": "^0.1.7",
+    "npm-sass": "^2.2.1",
+    "stylelint-config-property-sort-order-smacss": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^1.1.4",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^4.0.0"
+  }
 }

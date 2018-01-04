@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  @include font-smoothing();
+  min-height: 100%;
+  -webkit-text-size-adjust: 100%;                // Prevent mobile browsers from automatically zooming fonts.
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: -ms-autohiding-scrollbar;  // Autohide scrollbar in Internet Explorer
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); // Reset iOS highlight color
+  -webkit-backface-visibility: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+figure {
+  margin: 0; // Reset normalize’s `figure` margins
+}
+
+ol,
+ul {
+  margin-top: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+svg {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+
+address,
+cite {
+  font-style: normal;
+}

@@ -1,0 +1,17 @@
+.click-me {
+  padding: 0.5em 1em;
+  transform: skew(-10deg);
+  border: 3px solid #fff;
+  background: rgb(78, 73, 78);
+  line-height: 2;
+
+  &:focus,
+  &:hover {
+    background: #fff;
+    color: rgb(78, 73, 78);
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

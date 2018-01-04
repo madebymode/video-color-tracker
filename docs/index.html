@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MODE Color Tracker</title>
+    <link rel="stylesheet" href="./css/demo.css">
+    <script async src="./js/demo.js"></script>
+  </head>
+  <body>
+
+    <!-- Videos -->
+    <div class="video-container">
+      <video id="video-1" class="video active" autoplay="true" width="640" height="360" controls="true" loop="true">
+        <source src="./video/test-1.mp4" type="video/mp4">
+      </video>
+      <video id="video-2" class="video" width="640" height="360" controls="true" loop="true">
+        <source src="./video/test-2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <!-- Elements -->
+    <div class="track-me drag-me font" style="top: 220px; left: 135px;">Drag Me</div>
+    <div class="track-me drag-me font" style="top: 220px; left: 365px;">Drag Me</div>
+    <div class="track-me drag-me font" style="top: 220px; left: 595px;">Drag Me</div>
+
+    <!-- Swap Video -->
+    <button id="swap-video" class="click-me font" type="button">
+      Swap Video
+    </button>
+
+  </body>
+</html>
