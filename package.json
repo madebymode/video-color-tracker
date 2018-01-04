@@ -1,5 +1,5 @@
 {
-  "name": "mode-color-tracker",
+  "name": "video-color-tracker",
   "version": "0.1.0",
   "description": "",
   "main": "dist/VideoColorTracker.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madebymode/mode-color-tracker.git"
+    "url": "git+https://github.com/madebymode/video-color-tracker.git"
   },
   "author": "MODE <developers@madebymode.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/madebymode/mode-color-tracker/issues"
+    "url": "https://github.com/madebymode/video-color-tracker/issues"
   },
-  "homepage": "https://github.com/madebymode/mode-color-tracker#readme",
+  "homepage": "https://madebymode.github.io/video-color-tracker",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

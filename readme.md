@@ -1,8 +1,8 @@
-# MODE Color Tracker
+# Video Color Tracker
 
 Get the average color of areas where DOM elements overlap a `video`.
 
-[View Demo](https://madebymode.github.io/mode-color-tracker)
+[View Demo](https://madebymode.github.io/video-color-tracker)
 
 ## Example
 
@@ -23,7 +23,7 @@ First, setup a `video` element and some DOM elements that overlap it (e.g., usin
 Then, initialize the tracker:
 
 ```js
-import VideoColorTracker from 'mode-color-tracker';
+import VideoColorTracker from 'video-color-tracker';
 
 const video = document.getElementById('myVideo');
 const elements = document.querySelectorAll('.track-me');
