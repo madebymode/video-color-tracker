@@ -187,7 +187,6 @@ module.exports = (function(window, document, undefined) {
 
     // If the video isn't playing, stop watching
     if (video.paused || video.ended) {
-      console.log('i am dead');
       // TODO: How to hook into video quickly enough after transition?
       requestAnimationFrame(() => this.watch());
       // this.video.addEventListener('play', () => this.watch());

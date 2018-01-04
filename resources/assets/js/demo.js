@@ -6,7 +6,6 @@ const video2 = document.getElementById('video-2');
 const elements = document.querySelectorAll('.track-me');
 const tracker = new VideoColorTracker(video1, elements);
 
-// tracker.opacity = 0.9;
 tracker.start();
 
 
@@ -15,12 +14,10 @@ tracker.start();
 // Demo: Draggable
 // ------------------------------
 
-var draggable = Array.from(document.querySelectorAll('.drag-me')).map(el => {
+const dragMe = Array.from(document.querySelectorAll('.drag-me')).map(el => {
   return (new Draggable(el))
     .on('move', () => tracker.remap());
 });
-
-console.log(draggable);
 
 
 
