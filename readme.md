@@ -4,6 +4,12 @@ Get the average color of areas where DOM elements overlap a `video`.
 
 [View Demo](https://madebymode.github.io/video-color-tracker)
 
+## Install
+
+```
+npm i video-color-tracker --save
+```
+
 ## Example
 
 First, setup a `video` element and some DOM elements that overlap it (e.g., using `position: absolute;`):
