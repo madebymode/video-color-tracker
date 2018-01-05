@@ -33,7 +33,7 @@ import VideoColorTracker from 'video-color-tracker';
 
 const video = document.getElementById('myVideo');
 const elements = document.querySelectorAll('.track-me');
-const tracker = new VideoColorTracker(video1, elements);
+const tracker = new VideoColorTracker(video, elements);
 
 tracker.start();
 ```
