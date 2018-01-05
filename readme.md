@@ -39,3 +39,18 @@ tracker.start();
 ```
 
 And voila! You’re color-tracking.
+
+## API
+
+### Properties
+
+- `.scaleRatio`: Canvas to video scale. Smaller scale = less data to process, better performance. _Default: `0.5`_
+- `.delay`: How often new colors should be pulled, in milliseconds. _Default: `500`_
+
+### Methods
+
+- `.start()`: Start tracking color changes.
+- `.stop()`: Stop tracking color changes.
+- `.remap()`: Update areas where elements overlap video.
+- `.setVideo(video)`: Update video to track.
+- `.setElements(elements)`: Update elements to track colors for.
