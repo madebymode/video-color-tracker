@@ -1,7 +1,7 @@
 {
   "name": "video-color-tracker",
   "version": "0.1.1",
-  "description": "",
+  "description": "Get the average color of areas where DOM elements overlap a video.",
   "main": "dist/VideoColorTracker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
