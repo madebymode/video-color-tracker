@@ -33,10 +33,10 @@ module.exports = (function(window, document, undefined) {
     }
 
     // Settings
-    this.scaleRatio = 0.5; // Throttle the amount of color data processed
-    this.delay = 500; // How often new colors should be pulled
-    this.opacity = 1; // Opacity of video elements
-    this.watchScroll = false; // Watch video
+    this.scaleRatio = 0.5;     // Throttle the amount of color data processed
+    this.delay = 500;          // How often new colors should be pulled
+    this.opacity = 1;          // Opacity of video elements
+    this.watchScroll = false;  // Watch video
     this.keepWatching = false; // Should video keepWatching?
 
     // Init
