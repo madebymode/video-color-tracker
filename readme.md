@@ -51,6 +51,6 @@ And voila! You’re color-tracking.
 
 - `.start()`: Start tracking color changes.
 - `.stop()`: Stop tracking color changes.
-- `.remap()`: Update areas where elements overlap video.
+- `.remap()`: Update tracked coordinates where elements overlap video.
 - `.setVideo(video)`: Update video to track.
 - `.setElements(elements)`: Update elements to track colors for.
